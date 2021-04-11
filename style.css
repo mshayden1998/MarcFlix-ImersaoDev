@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+header {
+    text-align: center;
+}
+main {
+    max-width: 80%;
+    margin: auto;
+}
+
+div#catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Cards */
+.film_card {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.film_card img {
+    box-shadow: 0 0 8px grey;
+    object-fit: cover;
+    width: 580px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+.film_title {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+}
+.pt-br {
+    font-size: medium;
+    color: gray;
+}
+
+button#to_add {
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 gray;
+    font-size: x-large;
+}
+button#to_add:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    padding: 30px;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 16px 0;
+}
+footer h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+footer div {
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+}
+footer div ul {
+    flex: 1;
+}
+
+/* The form to add a movie */
+main form {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(96, 123, 158);
+    font-size: large;
+    display: none;
+}
